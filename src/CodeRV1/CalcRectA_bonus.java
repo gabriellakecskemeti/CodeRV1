@@ -22,7 +22,7 @@ public class CalcRectA_bonus {
             System.out.println("Only two Integer number can be accepted, please start the program again!");
         } else {
 
-            if (checkMyInt(args[0]) && checkMyInt(args[0])) {
+            if (checkMyInt(args[0]) && checkMyInt(args[1])) {
                 with = Integer.parseInt(args[0]);
                 height = Integer.parseInt(args[1]);
                 System.out.println("    Area in cm2:   " + MyClass.calcRectArea(with, height));
